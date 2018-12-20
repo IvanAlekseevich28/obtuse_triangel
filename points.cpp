@@ -1,5 +1,6 @@
 #include "points.h"
 #include <iostream>
+#include <string>
 
 using namespace  std;
 
@@ -19,6 +20,8 @@ points::points(int x, int y)
     this->y = y;
     this->id = IDcounter++;
 }
+
+
 
 void points::GetInfo()
 {
